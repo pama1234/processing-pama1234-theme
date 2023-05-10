@@ -27,14 +27,6 @@
 		"property": "#D53569",
 		// "variable": "#D53569"
 	},
-	"editor.tokenColorCustomizations": {
-		// "numbers": "#2A00EC",
-		//---
-		"functions": "#005984",
-		"variables": "#D53569",
-		"strings": "#7F4794",
-		"keywords": "#248888",
-	},
 	"tokenColors": [
 		{
 			"name": "Comment",
@@ -52,31 +44,6 @@
 			"scope": "constant.numeric",
 			"settings": {
 				"foreground": "#2A00EC"
-			}
-		},
-		//---
-		{
-			"scope": "functions",
-			"settings": {
-				"foreground": "#005984"
-			}
-		},
-		{
-			"scope": "variables",
-			"settings": {
-				"foreground": "#D53569"
-			}
-		},
-		{
-			"scope": "strings",
-			"settings": {
-				"foreground": "#7F4794"
-			}
-		},
-		{
-			"scope": "keywords",
-			"settings": {
-				"foreground": "#248888"
 			}
 		},
 		//---

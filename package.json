@@ -32,12 +32,12 @@
       {
         "label": "processing-pama1234-dark",
         "uiTheme": "vs-dark",
-        "path": "./themes/processing-pama1234-color-theme-dark.json"
+        "path": "./themes/theme-dark.json"
       },
       {
         "label": "processing-pama1234-light",
         "uiTheme": "vs",
-        "path": "./themes/processing-pama1234-color-theme-light.json"
+        "path": "./themes/theme-light.json"
       }
     ]
   }
