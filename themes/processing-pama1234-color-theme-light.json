@@ -2,6 +2,10 @@
 	"$schema": "vscode://schemas/color-theme",
 	"name": "processing-pama1234",
 	"colors": {
+		// "sideBar.background": "#404040",
+		// "sideBar.foreground": "#c0c0c0",
+		// "sideBar.foreground": "#909090",
+		// "editor.background": "#c2d4af",
 		"editor.background": "#DDF4C4",
 		"editor.foreground": "#000000",
 		"editorLineNumber.foreground": "#787878",
@@ -23,6 +27,32 @@
 				"foreground": "#2A00EC"
 			}
 		},
+		//---
+		{
+			"scope": "functions",
+			"settings": {
+				"foreground": "#005984"
+			}
+		},
+		{
+			"scope": "variables",
+			"settings": {
+				"foreground": "#D53569"
+			}
+		},
+		{
+			"scope": "strings",
+			"settings": {
+				"foreground": "#7F4794"
+			}
+		},
+		{
+			"scope": "keywords",
+			"settings": {
+				"foreground": "#248888"
+			}
+		},
+		//---
 		{
 			"scope": [
 				"punctuation.bracket.angle",
@@ -44,6 +74,165 @@
 				"foreground": "#000000C0",
 				"fontStyle": ""
 			}
-		}
+		},
+		//---
+		{
+			"scope": "comment.block.javadoc.java",
+			"settings": {
+				"foreground": "#3F5FBF"
+			}
+		},
+		{
+			"scope": [
+				"keyword.control",
+				"keyword.operator.logical.python"
+			],
+			"settings": {
+				"foreground": "#7F0055",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"scope": [
+				"keyword",
+				"storage.modifier",
+				"keyword.operator.expression",
+				"keyword.operator.new",
+				"keyword.operator.instanceof",
+				"keyword.control.new.java",
+				"variable.language",
+				"support.variable",
+				"constant.language",
+				"keyword.control.import.python",
+				"storage.type",
+				// "storage.type.primitive",
+				// "storage.type.function.js",
+				// "storage.type.js",
+				// "storage.type.class.js"
+			],
+			"settings": {
+				"foreground": "#248888",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"scope": "source.groovy.embedded",
+			"settings": {
+				"foreground": "#248888"
+			}
+		},
+		{
+			"scope": [
+				"storage.modifier.import.java",
+				"storage.modifier.package.java",
+				"keyword.operator",
+				"keyword.control.ternary.java",
+				"entity.name.type.class"
+			],
+			"settings": {
+				"fontStyle": ""
+			}
+		},
+		{
+			"scope": "keyword.other.documentation.javadoc",
+			"settings": {
+				"foreground": "#3F5FBF",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"scope": [
+				"meta.class.identifier.java",
+				"meta.definition.class.inherited.classes.java",
+				"entity.name.tag",
+				"entity.name.type.class",
+				"storage.type.groovy",
+				"storage.type.java"
+			],
+			"settings": {
+				"foreground": "#FB6104",
+			}
+		},
+		{
+			// [Determined by theme]
+			"scope": [
+				"punctuation.bracket.angle",
+				"punctuation.separator.delimiter",
+				"storage.type.generic.wildcard"
+			],
+			"settings": {
+				// "foreground": "#000000",
+				"foreground": "#dfdfdf",
+				"fontStyle": ""
+			}
+		},
+		// {
+		//     "scope": "entity.name.type.enum",
+		//     "settings": {
+		//         "foreground": "#A77554",
+		//         "fontStyle": "bold"
+		//     }
+		// },
+		{
+			// [Determined by theme]
+			"scope": [
+				"storage.type.annotation.java",
+				"storage.type.function.arrow",
+				"punctuation.definition.annotation.java"
+			],
+			"settings": {
+				// "foreground": "#000000C0",
+				"foreground": "#dfdfdfC0",
+				"fontStyle": ""
+			}
+		},
+		// {
+		//     "scope": "storage.type.generic",
+		//     "settings": {
+		//         "foreground": "#d3289a",
+		//     }
+		// },
+		{
+			"scope": "variable.parameter",
+			"settings": {
+				"foreground": "#E54579",
+				"fontStyle": ""
+			}
+		},
+		{
+			"scope": [
+				"entity.other.attribute-name",
+				"constant.other.key",
+				"variable.other.enummember"
+			],
+			"settings": {
+				"foreground": "#D53569"
+			}
+		},
+		{
+			"scope": "support.type.property-name",
+			"settings": {
+				"foreground": "#F55589"
+			}
+		},
+		{
+			"scope": "constant.character.escape",
+			"settings": {
+				"foreground": "#d37adb",
+				"fontStyle": "bold",
+			}
+		},
+		{
+			"scope": "punctuation.section.embedded",
+			"settings": {
+				"foreground": "#f736a0",
+			}
+		},
+		{
+			"scope": "string.quoted.double.html",
+			"settings": {
+				"foreground": "#9F47A4"
+			}
+		},
 	]
 }
