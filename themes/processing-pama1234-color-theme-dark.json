@@ -2,7 +2,7 @@
 	"$schema": "vscode://schemas/color-theme",
 	"name": "processing-pama1234",
 	"colors": {
-		"editor.background": "#000000",
+		"editor.background": "#1E1E1E",
 		"editor.foreground": "#dfdfdf",
 		"editorLineNumber.foreground": "#787878",
 		"editorLineNumber.activeForeground": "#d6d6d6",

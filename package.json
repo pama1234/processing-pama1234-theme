@@ -3,9 +3,23 @@
   "displayName": "Processing Pama1234 Color Theme",
   "description": "Color Theme based on IDE of Processing(Programming Language) syntax highlighting",
   "version": "0.0.1",
+  "publisher": "pama1234",
+  "preview": true,
+  "icon": "assets/128x.png",
+  "readme": "README.md",
+  "author": {
+    "name": "pama1234"
+  },
+  "license": "SEE LICENSE IN LICENSE.txt",
   "engines": {
     "vscode": "^1.78.0"
   },
+  "keywords": [
+    "Processing",
+    "Pama1234",
+    "Theme",
+    "Themes"
+  ],
   "categories": [
     "Themes"
   ],
