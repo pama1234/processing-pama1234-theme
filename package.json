@@ -1,0 +1,26 @@
+{
+  "name": "processing-pama1234-theme",
+  "displayName": "Processing Pama1234 Color Theme",
+  "description": "Color Theme based on IDE of Processing(Programming Language) syntax highlighting",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.78.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "processing-pama1234-dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/processing-pama1234-color-theme-dark.json"
+      },
+      {
+        "label": "processing-pama1234-light",
+        "uiTheme": "vs",
+        "path": "./themes/processing-pama1234-color-theme-light.json"
+      }
+    ]
+  }
+}

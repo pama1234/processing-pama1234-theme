@@ -1,0 +1,91 @@
+{
+	"$schema": "vscode://schemas/color-theme",
+	"name": "processing-pama1234",
+	"colors": {
+		"editor.background": "#000000",
+		"editor.foreground": "#dfdfdf",
+		"editorLineNumber.foreground": "#787878",
+		"editorLineNumber.activeForeground": "#d6d6d6",
+		"editor.selectionBackground": "#745c00",
+		"editor.selectionHighlightBackground": "#6b614c",
+		"editor.lineHighlightBackground": "#152d30"
+	},
+	"semanticHighlighting": true,
+	"semanticTokenColors": {
+		"*.declaration": {
+			"fontStyle": "bold"
+		},
+		"property.declaration": {
+			"fontStyle": ""
+		},
+		"*.static": {
+			"fontStyle": "italic"
+		},
+		"method.static.declaration": {
+			"fontStyle": "bold italic"
+		},
+		"property.readonly": {
+			"fontStyle": "bold"
+		},
+		"property.static.readonly": {
+			"fontStyle": "bold italic"
+		},
+		"property.static": {
+			"fontStyle": "italic"
+		},
+		"property.static.declaration": {
+			"fontStyle": "italic"
+		},
+		"enumMember.readonly": {
+			"fontStyle": "bold"
+		},
+		"enumMember.static.readonly": {
+			"fontStyle": "bold italic"
+		},
+		"interface": {
+			"foreground": "#6D5CB4",
+			"fontStyle": "bold"
+		},
+		"enum": {
+			"foreground": "#A77554",
+			"fontStyle": "bold"
+		},
+		"typeParameter": {
+			"foreground": "#644632",
+			"fontStyle": "bold"
+		},
+		"macro": {
+			"foreground": "#e248d5",
+		}
+	},
+	"tokenColors": [
+		{
+			"scope": "numbers",
+			"settings": {
+				"foreground": "#4A40FF"
+			}
+		},
+		{
+			"scope": [
+				"punctuation.bracket.angle",
+				"punctuation.separator.delimiter",
+				"storage.type.generic.wildcard"
+			],
+			"settings": {
+				"foreground": "#dfdfdf",
+				"fontStyle": ""
+			}
+		},
+		{
+			"scope": [
+				"storage.type.annotation.java",
+				"storage.type.function.arrow",
+				"punctuation.definition.annotation.java"
+			],
+			"settings": {
+				"foreground": "#dfdfdfC0",
+				"fontStyle": ""
+			}
+		}
+	]
+}

@@ -1,0 +1,49 @@
+{
+	"$schema": "vscode://schemas/color-theme",
+	"name": "processing-pama1234",
+	"colors": {
+		"editor.background": "#DDF4C4",
+		"editor.foreground": "#000000",
+		"editorLineNumber.foreground": "#787878",
+		"editorLineNumber.activeForeground": "#000000",
+		"editor.selectionBackground": "#FFCC00",
+		"editor.selectionHighlightBackground": "#F0D8A8",
+		"editor.lineHighlightBackground": "#6FEDFB",
+		"editorError.background": "#ff000040"
+	},
+	"semanticHighlighting": true,
+	"semanticTokenColors": {
+		"property": "#D53569",
+		"variable": "#D53569"
+	},
+	"tokenColors": [
+		{
+			"scope": "numbers",
+			"settings": {
+				"foreground": "#2A00EC"
+			}
+		},
+		{
+			"scope": [
+				"punctuation.bracket.angle",
+				"punctuation.separator.delimiter",
+				"storage.type.generic.wildcard"
+			],
+			"settings": {
+				"foreground": "#000000",
+				"fontStyle": ""
+			}
+		},
+		{
+			"scope": [
+				"storage.type.annotation.java",
+				"storage.type.function.arrow",
+				"punctuation.definition.annotation.java"
+			],
+			"settings": {
+				"foreground": "#000000C0",
+				"fontStyle": ""
+			}
+		}
+	]
+}
