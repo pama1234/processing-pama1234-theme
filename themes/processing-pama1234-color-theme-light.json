@@ -17,12 +17,39 @@
 	},
 	"semanticHighlighting": true,
 	"semanticTokenColors": {
+		"number": "#2A00EC",
+		//---
+		"function": "#005984",
+		"variable": "#D53569",
+		"string": "#7F4794",
+		"keyword": "#248888",
+		//---
 		"property": "#D53569",
-		"variable": "#D53569"
+		// "variable": "#D53569"
+	},
+	"editor.tokenColorCustomizations": {
+		// "numbers": "#2A00EC",
+		//---
+		"functions": "#005984",
+		"variables": "#D53569",
+		"strings": "#7F4794",
+		"keywords": "#248888",
 	},
 	"tokenColors": [
 		{
-			"scope": "numbers",
+			"name": "Comment",
+			"scope": [
+				"comment",
+				"punctuation.definition.comment"
+			],
+			"settings": {
+				"fontStyle": "italic",
+				"foreground": "#008000"
+			}
+		},
+		//---
+		{
+			"scope": "constant.numeric",
 			"settings": {
 				"foreground": "#2A00EC"
 			}

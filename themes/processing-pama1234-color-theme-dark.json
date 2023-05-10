@@ -3,16 +3,23 @@
 	"name": "processing-pama1234",
 	"colors": {
 		"editor.background": "#1E1E1E",
-		"editor.foreground": "#dfdfdf",
+		"editor.foreground": "#d4d4d4",
 		"editorLineNumber.foreground": "#787878",
 		"editorLineNumber.activeForeground": "#d6d6d6",
 		"editor.selectionBackground": "#745c00",
 		"editor.selectionHighlightBackground": "#6b614c",
-		"editor.lineHighlightBackground": "#152d30"
+		"editor.lineHighlightBackground": "#152d30",
 		// "errorForeground": "#f8c07f"
 	},
 	"semanticHighlighting": true,
 	"semanticTokenColors": {
+		"number": "#4A40FF",
+		//---
+		"function": "#005984",
+		"variable": "#D53569",
+		"string": "#7F4794",
+		"keyword": "#248888",
+		//---
 		"*.declaration": {
 			"fontStyle": "bold"
 		},
@@ -59,9 +66,29 @@
 			"foreground": "#e248d5",
 		}
 	},
+	"editor.tokenColorCustomizations": {
+		// "numbers": "#4A40FF",
+		//---
+		"functions": "#005984",
+		"variables": "#D53569",
+		"strings": "#7F4794",
+		"keywords": "#248888",
+	},
 	"tokenColors": [
 		{
-			"scope": "numbers",
+			"name": "Comment",
+			"scope": [
+				"comment",
+				"punctuation.definition.comment"
+			],
+			"settings": {
+				"fontStyle": "italic",
+				"foreground": "#6A9955"
+			}
+		},
+		//---
+		{
+			"scope": "constant.numeric",
 			"settings": {
 				"foreground": "#4A40FF"
 			}
