@@ -13,12 +13,12 @@
 	},
 	"semanticHighlighting": true,
 	"semanticTokenColors": {
-		"number": "#4A40FF",
+		// "number": "#4A40FF",
 		//---
-		"function": "#005984",
-		"variable": "#D53569",
-		"string": "#7F4794",
-		"keyword": "#248888",
+		// "function": "#005984",
+		// "variable": "#D53569",
+		// "string": "#7F4794",
+		// "keyword": "#248888",
 		//---
 		"*.declaration": {
 			"fontStyle": "bold"
@@ -67,6 +67,12 @@
 		}
 	},
 	"tokenColors": [
+		// "number": "#4A40FF",
+		//---
+		// "function": "#005984",
+		// "variable": "#D53569",
+		// "string": "#7F4794",
+		// "keyword": "#248888",
 		{
 			"name": "Comment",
 			"scope": [
@@ -87,13 +93,37 @@
 		},
 		//---
 		{
+			"scope": "variable",
+			"settings": {
+				"foreground": "#D53569"
+			}
+		},
+		{
 			"scope": [
-				"punctuation.bracket.angle",
+				"string",
+				"punctuation.definition.string"
+			],
+			"settings": {
+				"foreground": "#7F4794"
+			}
+		},
+		{
+			"scope": "entity.name.function",
+			"settings": {
+				"foreground": "#005984"
+			}
+		},
+		//---
+		{
+			"scope": [
+				"punctuation",
+				"punctuation.bracket",
+				// "punctuation.bracket.angle",
 				"punctuation.separator.delimiter",
 				"storage.type.generic.wildcard"
 			],
 			"settings": {
-				"foreground": "#dfdfdf",
+				"foreground": "#d4d4d4",
 				"fontStyle": ""
 			}
 		},
@@ -243,7 +273,10 @@
 			}
 		},
 		{
-			"scope": "support.type.property-name",
+			"scope": [
+				"support.type.property-name",
+				"punctuation.support.type.property-name"
+			],
 			"settings": {
 				"foreground": "#F55589"
 			}

@@ -17,15 +17,60 @@
 	},
 	"semanticHighlighting": true,
 	"semanticTokenColors": {
-		"number": "#2A00EC",
-		//---
-		"function": "#005984",
-		"variable": "#D53569",
-		"string": "#7F4794",
-		"keyword": "#248888",
-		//---
-		"property": "#D53569",
-		// "variable": "#D53569"
+		// "number": "#2A00EC",
+		// //---
+		// "function": "#005984",
+		// "variable": "#D53569",
+		// "string": "#7F4794",
+		// "keyword": "#248888",
+		// //---
+		// "property": "#D53569",
+		// "variable": "#D53569",
+		"*.declaration": {
+			"fontStyle": "bold"
+		},
+		"property.declaration": {
+			"fontStyle": ""
+		},
+		"*.static": {
+			"fontStyle": "italic"
+		},
+		"method.static.declaration": {
+			"fontStyle": "bold italic"
+		},
+		"property.readonly": {
+			"fontStyle": "bold"
+		},
+		"property.static.readonly": {
+			"fontStyle": "bold italic"
+		},
+		"property.static": {
+			"fontStyle": "italic"
+		},
+		"property.static.declaration": {
+			"fontStyle": "italic"
+		},
+		"enumMember.readonly": {
+			"fontStyle": "bold"
+		},
+		"enumMember.static.readonly": {
+			"fontStyle": "bold italic"
+		},
+		"interface": {
+			"foreground": "#6D5CB4",
+			"fontStyle": "bold"
+		},
+		"enum": {
+			"foreground": "#A77554",
+			"fontStyle": "bold"
+		},
+		"typeParameter": {
+			"foreground": "#644632",
+			"fontStyle": "bold"
+		},
+		"macro": {
+			"foreground": "#e248d5",
+		}
 	},
 	"tokenColors": [
 		{
@@ -44,6 +89,28 @@
 			"scope": "constant.numeric",
 			"settings": {
 				"foreground": "#2A00EC"
+			}
+		},
+		//---
+		{
+			"scope": "variable",
+			"settings": {
+				"foreground": "#D53569"
+			}
+		},
+		{
+			"scope": [
+				"string",
+				"punctuation.definition.string"
+			],
+			"settings": {
+				"foreground": "#7F4794"
+			}
+		},
+		{
+			"scope": "entity.name.function",
+			"settings": {
+				"foreground": "#005984"
 			}
 		},
 		//---
@@ -204,7 +271,10 @@
 			}
 		},
 		{
-			"scope": "support.type.property-name",
+			"scope": [
+				"support.type.property-name",
+				"punctuation.support.type.property-name"
+			],
 			"settings": {
 				"foreground": "#F55589"
 			}
