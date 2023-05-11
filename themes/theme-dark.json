@@ -9,17 +9,9 @@
 		"editor.selectionBackground": "#745c00",
 		"editor.selectionHighlightBackground": "#6b614c",
 		"editor.lineHighlightBackground": "#152d30",
-		// "errorForeground": "#f8c07f"
 	},
 	"semanticHighlighting": true,
 	"semanticTokenColors": {
-		// "number": "#4A40FF",
-		//---
-		// "function": "#005984",
-		// "variable": "#D53569",
-		// "string": "#7F4794",
-		// "keyword": "#248888",
-		//---
 		"*.declaration": {
 			"fontStyle": "bold"
 		},
@@ -67,12 +59,6 @@
 		}
 	},
 	"tokenColors": [
-		// "number": "#4A40FF",
-		//---
-		// "function": "#005984",
-		// "variable": "#D53569",
-		// "string": "#7F4794",
-		// "keyword": "#248888",
 		{
 			"name": "Comment",
 			"scope": [
@@ -80,7 +66,7 @@
 				"punctuation.definition.comment"
 			],
 			"settings": {
-				"fontStyle": "italic",
+				// "fontStyle": "italic",
 				"foreground": "#6A9955"
 			}
 		},
@@ -168,10 +154,6 @@
 				"constant.language",
 				"keyword.control.import.python",
 				"storage.type",
-				// "storage.type.primitive",
-				// "storage.type.function.js",
-				// "storage.type.js",
-				// "storage.type.class.js"
 			],
 			"settings": {
 				"foreground": "#248888",
@@ -217,44 +199,27 @@
 			}
 		},
 		{
-			// [Determined by theme]
 			"scope": [
 				"punctuation.bracket.angle",
 				"punctuation.separator.delimiter",
 				"storage.type.generic.wildcard"
 			],
 			"settings": {
-				// "foreground": "#000000",
 				"foreground": "#d4d4d4",
 				"fontStyle": ""
 			}
 		},
-		// {
-		//     "scope": "entity.name.type.enum",
-		//     "settings": {
-		//         "foreground": "#A77554",
-		//         "fontStyle": "bold"
-		//     }
-		// },
 		{
-			// [Determined by theme]
 			"scope": [
 				"storage.type.annotation.java",
 				"storage.type.function.arrow",
 				"punctuation.definition.annotation.java"
 			],
 			"settings": {
-				// "foreground": "#000000C0",
 				"foreground": "#dfdfdfC0",
 				"fontStyle": ""
 			}
 		},
-		// {
-		//     "scope": "storage.type.generic",
-		//     "settings": {
-		//         "foreground": "#d3289a",
-		//     }
-		// },
 		{
 			"scope": "variable.parameter",
 			"settings": {

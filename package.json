@@ -30,12 +30,14 @@
   "contributes": {
     "themes": [
       {
-        "label": "processing-pama1234-dark",
+        "id": "processing-pama1234-dark",
+        "label": "Processing Pama1234 Dark",
         "uiTheme": "vs-dark",
         "path": "./themes/theme-dark.json"
       },
       {
-        "label": "processing-pama1234-light",
+        "id": "processing-pama1234-light",
+        "label": "Processing Pama1234 Light",
         "uiTheme": "vs",
         "path": "./themes/theme-light.json"
       }
