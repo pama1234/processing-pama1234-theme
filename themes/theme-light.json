@@ -67,7 +67,6 @@
 				"punctuation.definition.comment"
 			],
 			"settings": {
-				// "fontStyle": "italic",
 				"foreground": "#008000",
 			}
 		},
