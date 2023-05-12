@@ -1,16 +1,15 @@
 # processing-pama1234-theme README
 
-## Working with Markdown
+[中文](#简介) | [English](#introduction)
 
-You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
+## 简介
 
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux).
-* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux).
-* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets.
+<https://processing.org/>是一个用于图形设计的编程语言，本插件在其中的IDE的默认语法高亮（语法着色）的基础上添加了其他一部分高亮规则，使得类变量接口字符串数字等内容可以更容易的被人眼分辨出来，这样程序员在学习新的语言时可以通过代码的颜色判断其含义，从而更清晰的理解新语言，以下是具体规则：
 
-## For more information
+（未完待续，鸽）
 
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
+## introduction
 
-**Enjoy!**
+<https://processing.org/> It is a programming language used for graphic design. **This plugin** adds many other highlighting rules to the default syntax highlighting (syntax coloring) of the Processing IDE, making it easier for human eyes to distinguish content such as class variable interfaces, strings, and numbers. This way, programmers can judge the meaning of the code through its color when learning a new language, thereby gaining a better understanding of the new language. The following are specific rules:
+
+(to be continued)

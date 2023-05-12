@@ -79,7 +79,10 @@
 		},
 		//---
 		{
-			"scope": "variable",
+			"scope": [
+				"variable",
+				"entity.name.variable"
+			],
 			"settings": {
 				"foreground": "#D53569"
 			}
@@ -192,7 +195,8 @@
 				"entity.name.tag",
 				"entity.name.type.class",
 				"storage.type.groovy",
-				"storage.type.java"
+				"storage.type.java",
+				"entity.name.type"
 			],
 			"settings": {
 				"foreground": "#FB6104",
