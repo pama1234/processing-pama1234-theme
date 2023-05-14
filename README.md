@@ -8,18 +8,18 @@
 
 **此表格并不完善，可能有很多错误，之后将会修正。**
 
-| 代码文本类型                         | 颜色      | 样式     |
-| ------------------------------------ | --------- | -------- |
-| 注释                                 | `#008000` | 无       |
-| 数字常量                             | `#2A00EC` | 无       |
-| 变量名、实体名                       | `#D53569` | 无       |
-| 字符串                               | `#7F4794` | 无       |
-| 函数名                               | `#005984` | 无       |
-| 括号、分隔符、通配符                 | `#000000` | 无       |
-| 注解、泛型通配符、角括号等           | `#dfdfdf` | 无       |
-| 关键字，修饰符，控制结构，常量等     | `#248888` | 不好解释 |
-| 类型标识符，继承类，标签，属性名称等 | `#FB6104` | 无       |
-| 参数                                 | `#E54579` | 无       |
+| 代码文本类型                         | 颜色                                 | 样式     |
+| ------------------------------------ | ------------------------------------ | -------- |
+| 注释                                 | $\color[RGB]{0,128,0}■$`#008000`     | 无       |
+| 数字常量                             | $\color[RGB]{42,0,236}■$`#2A00EC`    | 无       |
+| 变量名、实体名                       | $\color[RGB]{213,53,105}■$`#D53569`  | 无       |
+| 字符串                               | $\color[RGB]{127,71,148}■$`#7F4794`  | 无       |
+| 函数名                               | $\color[RGB]{0,89,132}■$`#005984`    | 无       |
+| 括号、分隔符、通配符                 | $\color[RGB]{0,0,0}■$`#000000`       | 无       |
+| 注解、泛型通配符、角括号等           | $\color[RGB]{223,223,223}■$`#dfdfdf` | 无       |
+| 关键字，修饰符，控制结构，常量等     | $\color[RGB]{36,136,136}■$`#248888`  | 不好解释 |
+| 类型标识符，继承类，标签，属性名称等 | $\color[RGB]{251,97,4}■$`#FB6104`    | 无       |
+| 参数                                 | $\color[RGB]{229,69,121}■$`#E54579`  | 无       |
 
 ## introduction
 
@@ -27,15 +27,15 @@
 
 **This table is not complete and may contain many errors, which will be corrected later.**
 
-| Code Text Type                                       | Color     | Style           |
-| ---------------------------------------------------- | --------- | --------------- |
-| Comment                                              | `#008000` | none            |
-| Numeric constant                                     | `#2A00EC` | none            |
-| Variable and entity name                             | `#D53569` | none            |
-| String                                               | `#7F4794` | none            |
-| Function name                                        | `#005984` | none            |
-| Brackets, separators, wildcard                       | `#000000` | none            |
-| Annotations, generics, angle brackets                | `#dfdfdf` | none            |
-| Keywords, modifiers, controls, constants             | `#248888` | hard to explain |
-| Type identifier, inherited class, tag, property name | `#FB6104` | none            |
-| Parameter                                            | `#E54579` | none            |
+| Code Text Type                                       | Color                                | Style           |
+| ---------------------------------------------------- | ------------------------------------ | --------------- |
+| Comment                                              | $\color[RGB]{0,128,0}■$`#008000`     | none            |
+| Numeric constant                                     | $\color[RGB]{42,0,236}■$`#2A00EC`    | none            |
+| Variable and entity name                             | $\color[RGB]{213,53,105}■$`#D53569`  | none            |
+| String                                               | $\color[RGB]{127,71,148}■$`#7F4794`  | none            |
+| Function name                                        | $\color[RGB]{0,89,132}■$`#005984`    | none            |
+| Brackets, separators, wildcard                       | $\color[RGB]{0,0,0}■$`#000000`       | none            |
+| Annotations, generics, angle brackets                | $\color[RGB]{223,223,223}■$`#dfdfdf` | none            |
+| Keywords, modifiers, controls, constants             | $\color[RGB]{36,136,136}■$`#248888`  | hard to explain |
+| Type identifier, inherited class, tag, property name | $\color[RGB]{251,97,4}■$`#FB6104`    | none            |
+| Parameter                                            | $\color[RGB]{229,69,121}■$`#E54579`  | none            |
