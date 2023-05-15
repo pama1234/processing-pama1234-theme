@@ -57,6 +57,10 @@
 		},
 		"macro": {
 			"foreground": "#e248d5",
+		},
+		"module": {
+			"foreground": "#f7777b",
+			"fontStyle": "bold"
 		}
 	},
 	"tokenColors": [
@@ -176,6 +180,7 @@
 				"entity.name.type.class"
 			],
 			"settings": {
+				"foreground": "#000000",
 				"fontStyle": ""
 			}
 		},
