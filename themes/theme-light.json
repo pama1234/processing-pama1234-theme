@@ -206,28 +206,6 @@
 			}
 		},
 		{
-			"scope": [
-				"punctuation.bracket.angle",
-				"punctuation.separator.delimiter",
-				"storage.type.generic.wildcard"
-			],
-			"settings": {
-				"foreground": "#dfdfdf",
-				"fontStyle": ""
-			}
-		},
-		{
-			"scope": [
-				"storage.type.annotation.java",
-				"storage.type.function.arrow",
-				"punctuation.definition.annotation.java"
-			],
-			"settings": {
-				"foreground": "#dfdfdfC0",
-				"fontStyle": ""
-			}
-		},
-		{
 			"scope": "variable.parameter",
 			"settings": {
 				"foreground": "#E54579",
