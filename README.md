@@ -7,7 +7,7 @@
 
 ## 简介
 
-是一个用于图形设计的编程语言，本插件在其中的IDE的默认语法高亮（语法着色）的基础上添加了其他一部分高亮规则，使得类变量接口字符串数字等内容可以更容易的被人眼分辨出来，这样程序员在学习新的语言时可以通过代码的颜色判断其含义，从而更清晰的理解新语言，以下是具体规则：
+[Processing](https://processing.org/)是一个用于图形设计的编程语言，本插件在其中的IDE的默认语法高亮（语法着色）的基础上添加了其他一部分高亮规则，使得类变量接口字符串数字等内容可以更容易的被人眼分辨出来，这样程序员在学习新的语言时可以通过代码的颜色判断其含义，从而更清晰的理解新语言，以下是具体规则：
 
 **此表格并不完善，可能有很多错误，之后将会修正。**
 
@@ -26,7 +26,7 @@
 
 ## introduction
 
- It is a programming language used for graphic design. **This plugin** adds many other highlighting rules to the default syntax highlighting (syntax coloring) of the Processing IDE, making it easier for human eyes to distinguish content such as class variable interfaces, strings, and numbers. This way, programmers can judge the meaning of the code through its color when learning a new language, thereby gaining a better understanding of the new language. The following are specific rules:
+[Processing](https://processing.org/) is a programming language used for graphic design. **This plugin** adds many other highlighting rules to the default syntax highlighting (syntax coloring) of the Processing IDE, making it easier for human eyes to distinguish content such as class variable interfaces, strings, and numbers. This way, programmers can judge the meaning of the code through its color when learning a new language, thereby gaining a better understanding of the new language. The following are specific rules:
 
 **This table is not complete and may contain many errors, which will be corrected later.**
 
