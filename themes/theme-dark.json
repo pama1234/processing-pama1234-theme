@@ -77,7 +77,7 @@
 		{
 			"scope": "constant.numeric",
 			"settings": {
-				"foreground": "#4A40FF"
+				"foreground": "#6466FF"
 			}
 		},
 		//---
@@ -87,7 +87,7 @@
 				"entity.name.variable"
 			],
 			"settings": {
-				"foreground": "#D53569"
+				"foreground": "#DD4B87"
 			}
 		},
 		{
@@ -96,7 +96,7 @@
 				"punctuation.definition.string"
 			],
 			"settings": {
-				"foreground": "#7F4794"
+				"foreground": "#BF57CA"
 			}
 		},
 		{
@@ -134,7 +134,7 @@
 		{
 			"scope": "comment.block.javadoc.java",
 			"settings": {
-				"foreground": "#3F5FBF"
+				"foreground": "#5F7FDF"
 			}
 		},
 		{
@@ -188,7 +188,7 @@
 		{
 			"scope": "keyword.other.documentation.javadoc",
 			"settings": {
-				"foreground": "#3F5FBF",
+				"foreground": "#5F7FDF",
 				"fontStyle": "bold"
 			}
 		},
@@ -232,7 +232,7 @@
 		{
 			"scope": "variable.parameter",
 			"settings": {
-				"foreground": "#E54579",
+				"foreground": "#E96DB4",
 				"fontStyle": ""
 			}
 		},
@@ -243,7 +243,7 @@
 				"variable.other.enummember"
 			],
 			"settings": {
-				"foreground": "#D53569"
+				"foreground": "#E96DB4"
 			}
 		},
 		{
@@ -252,7 +252,7 @@
 				"punctuation.support.type.property-name"
 			],
 			"settings": {
-				"foreground": "#F55589"
+				"foreground": "#E96DB4"
 			}
 		},
 		{
@@ -265,7 +265,7 @@
 		{
 			"scope": "punctuation.section.embedded",
 			"settings": {
-				"foreground": "#f736a0",
+				"foreground": "#E96DB4",
 			}
 		},
 		{

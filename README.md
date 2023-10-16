@@ -24,6 +24,10 @@
 | 注解、泛型通配符、角括号等           | $\color[RGB]{223,223,223}■$`#dfdfdf` | 无       |
 | 类型标识符，继承类，标签，属性名称等 | $\color[RGB]{251,97,4}■$`#FB6104`    | 无       |
 
+安装开发工具：`npm install -g @vscode/vsce`
+
+打包：`vsce package`
+
 ## introduction
 
 [Processing](https://processing.org/) is a programming language used for graphic design. **This plugin** adds many other highlighting rules to the default syntax highlighting (syntax coloring) of the Processing IDE, making it easier for human eyes to distinguish content such as class variable interfaces, strings, and numbers. This way, programmers can judge the meaning of the code through its color when learning a new language, thereby gaining a better understanding of the new language. The following are specific rules:
@@ -42,3 +46,7 @@
 | Brackets, separators, wildcard                       | $\color[RGB]{0,0,0}■$`#000000`       | none            |
 | Annotations, generics, angle brackets                | $\color[RGB]{223,223,223}■$`#dfdfdf` | none            |
 | Type identifier, inherited class, tag, property name | $\color[RGB]{251,97,4}■$`#FB6104`    | none            |
+
+install development tool: `npm install -g @vscode/vsce`
+
+package: `vsce package`

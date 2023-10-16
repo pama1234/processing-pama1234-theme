@@ -7,3 +7,4 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 ## [Unreleased]
 
 - Initial release
+- 0.4 修改了暗色模式中的一些过暗的文字配色 changed some overdark syntax color in dark mode

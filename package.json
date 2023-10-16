@@ -2,7 +2,7 @@
   "name": "processing-pama1234-theme",
   "displayName": "Processing Pama1234 Color Theme",
   "description": "Color Theme based on IDE of Processing(Programming Language) syntax highlighting",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "publisher": "pama1234",
   "preview": true,
   "icon": "assets/icon.png",
