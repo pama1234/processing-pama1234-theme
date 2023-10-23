@@ -7,7 +7,7 @@
             "editorLineNumber.activeForeground": "#d6d6d6",
             "editor.selectionBackground": "#745c00",
             "editor.selectionHighlightBackground": "#6b614c",
-            "editor.lineHighlightBackground": "#152d30",
+            "editor.lineHighlightBackground": "#152d30"
             // "errorForeground": "#f8c07f"
         },
         "[Default Light+]": {
@@ -22,8 +22,8 @@
             "editor.selectionBackground": "#FFCC00",
             "editor.selectionHighlightBackground": "#F0D8A8",
             "editor.lineHighlightBackground": "#6FEDFB",
-            "editorError.background": "#ff000040",
-        },
+            "editorError.background": "#ff000040"
+        }
     },
     // "files.insertFinalNewline": false,
     "workbench.tree.indent": 8,
@@ -81,7 +81,7 @@
                 "fontStyle": "bold"
             },
             "macro": {
-                "foreground": "#e248d5",
+                "foreground": "#e248d5"
             }
         }
     },
@@ -110,7 +110,7 @@
                         "foreground": "#000000C0",
                         "fontStyle": ""
                     }
-                },
+                }
             ]
         },
         "[Default Dark+]": {
@@ -137,7 +137,7 @@
                         "foreground": "#dfdfdfC0",
                         "fontStyle": ""
                     }
-                },
+                }
             ]
         },
         "functions": "#005984",
@@ -173,7 +173,7 @@
                     "support.variable",
                     "constant.language",
                     "keyword.control.import.python",
-                    "storage.type",
+                    "storage.type"
                     // "storage.type.primitive",
                     // "storage.type.function.js",
                     // "storage.type.js",
@@ -216,10 +216,11 @@
                     "entity.name.tag",
                     "entity.name.type.class",
                     "storage.type.groovy",
-                    "storage.type.java"
+                    "storage.type.java",
+                    "entity.name.class.declaration"
                 ],
                 "settings": {
-                    "foreground": "#FB6104",
+                    "foreground": "#FB6104"
                 }
             },
             {
@@ -288,13 +289,13 @@
                 "scope": "constant.character.escape",
                 "settings": {
                     "foreground": "#d37adb",
-                    "fontStyle": "bold",
+                    "fontStyle": "bold"
                 }
             },
             {
                 "scope": "punctuation.section.embedded",
                 "settings": {
-                    "foreground": "#f736a0",
+                    "foreground": "#f736a0"
                 }
             },
             {
@@ -302,7 +303,7 @@
                 "settings": {
                     "foreground": "#9F47A4"
                 }
-            },
+            }
             // {
             //     "scope": "meta.definition.class.implemented.interfaces",
             //     "settings": {
@@ -310,6 +311,6 @@
             //         "fontStyle": "bold"
             //     }
             // }
-        ],
-    },
+        ]
+    }
 }

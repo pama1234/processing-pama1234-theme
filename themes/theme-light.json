@@ -200,7 +200,9 @@
 				"storage.type.groovy",
 				"storage.type.java",
 				"entity.name.type",
-				"entity.name.class.message.proto"
+				"entity.name.class.message.proto",
+				"entity.name.class.declaration",
+				"entity.name.class"
 			],
 			"settings": {
 				"foreground": "#FB6104",
