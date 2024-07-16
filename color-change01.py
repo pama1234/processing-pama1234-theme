@@ -6,9 +6,9 @@ def is_dark_color(hex_color):
     hex_color = hex_color.lstrip('#')
     r, g, b = tuple(int(hex_color[i:i+2], 16) for i in (0, 2, 4))
     h, l, s = colorsys.rgb_to_hls(r/255, g/255, b/255)
-    return l < 0.5
+    return l < 0.6
 
-def lighten_color(hex_color, factor=0.2):
+def lighten_color(hex_color, factor=0.1):
     """调高颜色亮度"""
     hex_color = hex_color.lstrip('#')
     r, g, b = tuple(int(hex_color[i:i+2], 16) for i in (0, 2, 4))
